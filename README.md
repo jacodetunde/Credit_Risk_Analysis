@@ -30,4 +30,7 @@ I then compared their strengths and weaknesses to assess how well each models wo
 - the balanced accuracy score for this model is 0.52
 ![undersampling_prf.png](undersampling_prf.png)
 - The precision score is 0.01 and 1.00 for high risk and low risk respectively. While the recall is 0.63 and 0.41 for high risk and low risk respectively
+#### 4. SMOTEENN ( the combination of Over and Under Sampling) model
+![smoteenn.png]
+- From this mode, the balance accuracy score is 0.637, the precision score for high risk and low risk are 0.01 and 1.00 respectively. While the recall scores are 0.70 and 0.57 respectively. 
 ## Summary
