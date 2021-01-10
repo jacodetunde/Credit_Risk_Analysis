@@ -37,4 +37,8 @@ I then compared their strengths and weaknesses to assess how well each models wo
 ![balanceforest.png](balanceforest.png)
 - The balance accuracy score from this model is 0.80
 - The precision scores are 0.03 and 1.00 for high risk and low risk respectively. While the recall scores for high risk and low risk are 0.71 and 0.89 respectively.
+#### 6. Easy Ensemble AdaBoost Classifier
+![ensembler.png](ensembler.png)
+- The balance accuracy score from this model is 0.925
+- The precision score for high risk and low risk are 0.08 and 1.00 respectively. While the recall score for high risk and low risk are 0.91 and 0.94 respectively.
 ## Summary
