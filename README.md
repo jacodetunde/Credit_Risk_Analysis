@@ -36,5 +36,5 @@ I then compared their strengths and weaknesses to assess how well each models wo
 #### 5. Balanced Random Forest Classifier
 ![balanceforest.png](balanceforest.png)
 - The balance accuracy score from this model is 0.80
--The precision scores are 0.03 and 1.00 for high risk and low risk respectively. While the recall scores for high risk and low risk are 0.71 and 0.89 respectively.
+- The precision scores are 0.03 and 1.00 for high risk and low risk respectively. While the recall scores for high risk and low risk are 0.71 and 0.89 respectively.
 ## Summary
