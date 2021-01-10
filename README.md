@@ -29,5 +29,5 @@ I then compared their strengths and weaknesses to assess how well each models wo
 ![undersampling_bac.png](undersampling_bac.png)
 - the balanced accuracy score for this model is 0.52
 ![undersampling_prf.png](undersampling_prf.png)
-The precision score is 0.01 and 1.00 for high risk and low risk respectively. While the recall is 0.63 and 0.41 for high risk and low risk respectively
+- The precision score is 0.01 and 1.00 for high risk and low risk respectively. While the recall is 0.63 and 0.41 for high risk and low risk respectively
 ## Summary
