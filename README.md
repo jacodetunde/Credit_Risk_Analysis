@@ -42,3 +42,12 @@ I then compared their strengths and weaknesses to assess how well each models wo
 - The balance accuracy score from this model is 0.925
 - The precision score for high risk and low risk are 0.08 and 1.00 respectively. While the recall score for high risk and low risk are 0.91 and 0.94 respectively.
 ## Summary
+- Naive Random Oversampling and SMOTE Oversampling models produced the same results.
+- Undersampling produced lower balanced accuracy score and F1 score than oversampling. However both under sampling and oversampling produced high precision scores for low risk.
+- The combination of oversampling and undersampling produced a slight improvement over the balanced accuracy score, but, low f1 score on high risk.
+- Balanced Random Forest Classifier produced a higher balanced accuracy score above the resampling models. However, with lower high risk f1 scores.
+- Easy Ensembler has more higher balanced accuracy score and  recall scores but lower high risk f1 score.
+Generally, all the models precisions for high risks are low indicating a large number of false positive which means an unrelaible positive classifications.
+The recalls by combination over and undersampling are relatively low for low risks which indicate a large number of false negative.
+In other words, the undersampling, oversampling and SMOTEENN models would not be the best one for predicting credit risk because the models accuracy scores are below 0.66 and F1 scores are not good enough to state that the model will be good at classifying high risk loan applications
+However, Balanced Random Forest Classifier and Ensembler models are good at predicting the risks but not good at classifying. Therefore, I will not recommend any of these models to predict because none of this model predict the high risk credit effectively. If I model can effectively predict the high risk, it would be risky to rely on that model for decision making.
