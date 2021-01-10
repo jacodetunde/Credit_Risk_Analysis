@@ -6,6 +6,5 @@ Loans are an integral part of modern society. It presents opportunities and pose
 - Undersampling
 - SMOTEENN
 - Balanced Random Forest Classifier
-- Easy Ensemble AdaBoost Classifier.
-I then compared their strengths and weaknesses to assess how well each models works to classify and predict the risks.
+- Easy Ensemble AdaBoost Classifier.I then compared their strengths and weaknesses to assess how well each models works to classify and predict the risks.
 ## Summary
