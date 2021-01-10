@@ -19,7 +19,10 @@ I then compared their strengths and weaknesses to assess how well each models wo
 - the balanced accuracy score is 0.65
 ![naive2.png](naive2.png)
 - The precision score for high risk is 0.01 while the precision score for low risk is 1.0. The recall score for high risk is 0.64 while low risk is 0.66
+
 2. SMOTE Oversampling model
 ![smote_bas.png](smote_bas.png)
+- The balance accuracy score for this model is 0.65
 ![smote_prf.png](smote_prf.png)
+- The precision score is 0.01 and 1.0 for high risk and low risk respectively. While the recall score is 0.64 and 0.66 for high risk and low risk respectively.
 ## Summary
