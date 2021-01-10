@@ -25,4 +25,9 @@ I then compared their strengths and weaknesses to assess how well each models wo
 - The balance accuracy score for this model is 0.65
 ![smote_prf.png](smote_prf.png)
 - The precision score is 0.01 and 1.0 for high risk and low risk respectively. While the recall score is 0.64 and 0.66 for high risk and low risk respectively.
+#### 3. Undersampling model
+![undersampling_bac.png](undersampling_bac.png)
+- the balanced accuracy score for this model is 0.52
+![undersampling_prf.png](undersampling_prf.png)
+The precision score is 0.01 and 1.00 for high risk and low risk respectively. While the recall is 0.63 and 0.41 for high risk and low risk respectively
 ## Summary
