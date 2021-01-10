@@ -14,9 +14,12 @@ I used Python and Scikit-learn libraries to build algorithms and predict credit 
 
 I then compared their strengths and weaknesses to assess how well each models works to classify and predict the risks.
 ## Results
-- Naive Random Oversampling models:
+1. Naive Random Oversampling models:
 ![naive1.png](naive1.png)
 - the balanced accuracy score is 0.65
 ![naive2.png](naive2.png)
 - The precision score for high risk is 0.01 while the precision score for low risk is 1.0. The recall score for high risk is 0.64 while low risk is 0.66
+2. SMOTE Oversampling model
+![smote_bac.png](smote_bac.png)
+![smote_prf.png](smote_prf.png)
 ## Summary
