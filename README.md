@@ -47,7 +47,9 @@ I then compared their strengths and weaknesses to assess how well each models wo
 - The combination of oversampling and undersampling produced a slight improvement over the balanced accuracy score, but, low f1 score on high risk.
 - Balanced Random Forest Classifier produced a higher balanced accuracy score above the resampling models. However, with lower high risk f1 scores.
 - Easy Ensembler has more higher balanced accuracy score and  recall scores but lower high risk f1 score.
+
 Generally, all the models precisions for high risks are low indicating a large number of false positive which means an unrelaible positive classifications.
 The recalls by combination over and undersampling are relatively low for low risks which indicate a large number of false negative.
-In other words, the undersampling, oversampling and SMOTEENN models would not be the best one for predicting credit risk because the models accuracy scores are below 0.66 and F1 scores are not good enough to state that the model will be good at classifying high risk loan applications
+In other words, the undersampling, oversampling and SMOTEENN models would not be the best one for predicting credit risk because the models accuracy scores are below 0.66 and F1 scores are not good enough to state that the model will be good at classifying high risk loan applications.
+
 However, Balanced Random Forest Classifier and Ensembler models are good at predicting the risks but not good at classifying. Therefore, I will not recommend any of these models to predict because none of this model predict the high risk credit effectively. If I model can effectively predict the high risk, it would be risky to rely on that model for decision making.
